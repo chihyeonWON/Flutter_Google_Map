@@ -1,16 +1,11 @@
 # google_map
 
-A new Flutter project.
+```
+앞서 네이버에서 제공하는 Map API를 써봤지만 원작자가 업데이트를 중단하기도 하고 알 수 없는
+버그가 많아 픽스가 어려울 것이라 판단하여 구글에서 제공하는 맵 서비스를 이용하고자 한다.
+```
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### google_maps_flutter 플러그인 설치와 의존성 추가
+```
+먼저 pub.dev의 google_maps_flutter 2.2.3 버전에 따라 플러그인을 설치하고 의존성을 추가해준다.
+```
