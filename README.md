@@ -28,3 +28,24 @@ keytool -list -v -keystore debug.keystore를 입력하고 비밀번호에 androi
 SHA-1 인증서 디버그용 지문을 얻을 수 있다. 확인 버튼을 누르면 정상적으로 API키가 발급되었음을 알 수 있다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/212579135-724b52fb-33d2-4166-8cd3-62deb0f36769.png)
+
+### 안드로이드 빌드 수정
+```
+앱 프로젝트에서 빌드를 건들어야 할 것이 몇 가지 있다.
+앱 수준의 build.gradle 파일을 다음과 같이 수정해준다.
+android {
+	compileSdkVersion flutter.compileSdkVersion
+    
+    defaultConfig {
+    	minSdkVersion 20
+        targetSdkVersion 30
+        versionCode flutterVersionCode.toInterger()
+        versionName flutterVersionName
+   }
+ }
+ 
+ 그 후 app/src/main/AndroidManifest.xml 파일에서 meta-data를 추가한다.
+ <meta-data android:name="com.google.android.geo.API_KEY"
+           android:value="발급받은 api 키"/>
+ ```
+ 
