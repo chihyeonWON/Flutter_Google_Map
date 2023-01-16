@@ -4,6 +4,8 @@
 앞서 네이버에서 제공하는 Map API를 써봤지만 원작자가 업데이트를 중단하기도 하고 알 수 없는
 버그가 많아 픽스가 어려울 것이라 판단하여 구글에서 제공하는 맵 서비스를 이용하고자 한다.
 ```
+![image](https://user-images.githubusercontent.com/58906858/212581367-f78ec8d8-4617-4719-ab6a-5a01105ea8d6.png)
+
 
 ### google_maps_flutter 플러그인 설치와 의존성 추가
 ```
