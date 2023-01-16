@@ -49,3 +49,10 @@ android {
            android:value="발급받은 api 키"/>
  ```
  
+### sample code
+```
+google_maps_flutter 공식 개발 문서에서 제공하는 샘플 코드를 사용할 수 있게 되었다.
+main.dart를 예제코드로 수정을 하고 에뮬레이터를 돌리면 정상적으로 
+구글 지도를 사용할 수 있게 된다.
+```
+![image](https://user-images.githubusercontent.com/58906858/212581169-f1469c48-a21b-4b38-a2c7-975c45f5a291.png)
